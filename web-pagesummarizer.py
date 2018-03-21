@@ -86,10 +86,10 @@ def summarizeURL(url, total_pars):
 	return " ".join(final_summary)
 
 url = input("Enter a URL : ")
-#n = int(input("Enter Number of sentences you need in summary : "))
+n = int(input("Enter Number of sentences you need in summary : "))
 print("\n\n####################################################\n")
 
 print("Summary of the web-page :\n\n")
 
-final_summary = summarizeURL(url, 5)
+final_summary = summarizeURL(url, n)
 print (final_summary)
